@@ -153,7 +153,7 @@ spec:
     spec:
       containers:
       - name: staff-service
-        image: richardchesterwood/istio-fleetman-staff-service:6
+        image: richardchesterwood/istio-fleetman-staff-service:6-bad
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice

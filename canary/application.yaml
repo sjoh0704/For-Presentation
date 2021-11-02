@@ -75,7 +75,7 @@ spec:
   selector:
     matchLabels:
       app: webapp
-  replicas: 1
+  replicas: 0
   template: # template for the pods
     metadata:
       labels:
