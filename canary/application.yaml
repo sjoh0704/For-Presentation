@@ -144,7 +144,7 @@ spec:
   selector:
     matchLabels:
       app: staff-service
-  replicas: 0
+  replicas: 1
   template: # template for the pods
     metadata:
       labels:
@@ -199,7 +199,7 @@ spec:
   ports:
     - name: http
       port: 80
-      nodePort: 30080
+      nodePort: 30000
   type: LoadBalancer
 ---
 apiVersion: v1
